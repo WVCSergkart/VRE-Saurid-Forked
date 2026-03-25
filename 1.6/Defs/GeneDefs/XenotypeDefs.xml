@@ -12,7 +12,7 @@
 		<chanceToUseNameMaker>0.75</chanceToUseNameMaker>
 		<genes>
 			<li>VRESaurids_ScaleSkin</li>
-			<li>VRESaurids_Oviparous</li>
+			<li>WVC_Ovipositor</li>
 			<li>VRESaurids_ColdBlooded</li>
 			<li>VRESaurids_CenterFrill</li>
 			<li>VRESaurids_FrilledEars</li>

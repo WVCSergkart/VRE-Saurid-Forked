@@ -5,7 +5,7 @@
 		<defName>VRESaurids_SauridClaws</defName>
 		<label>saurid claws</label>
 		<description>Carriers of this gene have hands that partially resemble dinosaur claws. This has a slight impact on their ability to manipulate objects, but allows them to deal deep cuts in melee combat.</description>
-	
+		<geneClass>WVC_XenotypesAndGenes.Gene_AddOrRemoveHediff</geneClass>
 		<iconPath>UI/GeneIcons/Gene_HandsSaurid</iconPath>
 		<displayOrderInCategory>320</displayOrderInCategory>
 		<biostatCpx>1</biostatCpx>
@@ -69,17 +69,26 @@
 				</li>
 			</suffixSymbols>
 		</symbolPack>
+		<!-- <modExtensions> -->
+			<!-- <li Class="VEF.Genes.GeneExtension"> -->
+				<!-- <hediffsToBodyParts> -->
+					<!-- <li> -->
+						<!-- <hediff>VRESaurids_SauridClaws</hediff> -->
+						<!-- <bodyparts> -->
+							<!-- <li>Hand</li> -->
+							<!-- <li>Hand</li> -->
+						<!-- </bodyparts> -->
+					<!-- </li> -->
+				<!-- </hediffsToBodyParts> -->
+			<!-- </li> -->
+		<!-- </modExtensions> -->
 		<modExtensions>
-			<li Class="VEF.Genes.GeneExtension">
-				<hediffsToBodyParts>
-					<li>
-						<hediff>VRESaurids_SauridClaws</hediff>
-						<bodyparts>
-							<li>Hand</li>
-							<li>Hand</li>
-						</bodyparts>
-					</li>
-				</hediffsToBodyParts>
+			<li Class="WVC_XenotypesAndGenes.GeneExtension_Giver">
+				<hediffDefName>VRESaurids_SauridClaws</hediffDefName>
+				<bodyparts>
+				  <li>Hand</li>
+				  <li>Hand</li>
+				</bodyparts>
 			</li>
 		</modExtensions>
 	</GeneDef>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<HediffDef>
+	<HediffDef ParentName="WVC_XenotypesAndGenes_Hediffs_VerbWeapon">
 		<defName>VRESaurids_SauridClaws</defName>
 		<label>saurid claws</label>
 		<description>Carriers of this gene have hands that partially resemble dinosaur claws. This has a slight impact on their ability to manipulate objects, but allows them to deal deep cuts in melee combat.</description>
-		<hediffClass>HediffWithComps</hediffClass>
-		<scenarioCanAdd>false</scenarioCanAdd>
-		<maxSeverity>1.0</maxSeverity>
-    <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
-		<isBad>false</isBad>
+		<!-- <hediffClass>HediffWithComps</hediffClass> -->
+		<!-- <scenarioCanAdd>false</scenarioCanAdd> -->
+		<!-- <maxSeverity>1.0</maxSeverity> -->
+    <!-- <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn> -->
+		<!-- <isBad>false</isBad> -->
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
@@ -24,9 +24,9 @@
 				</tools>
 			</li>
 		</comps>
-		<addedPartProps>
-			<betterThanNatural>true</betterThanNatural>
-		</addedPartProps>
+		<!-- <addedPartProps> -->
+			<!-- <betterThanNatural>true</betterThanNatural> -->
+		<!-- </addedPartProps> -->
 	</HediffDef>
 
 </Defs>

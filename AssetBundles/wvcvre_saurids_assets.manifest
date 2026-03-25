@@ -1,0 +1,116 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.4.0f1
+CRC: 2818483356
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4536c97e569fb92b9e64c70f0155b23c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9805626a0a960da8f69a56443df5de53
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fc9deb200f70cd19bb02c4f3ee36b450
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill4_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill6_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Gaunt_Normal_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/FrilledEars/FrilledEars1_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/GeckoTail/GeckoTail_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Thin_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Male_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/FactionIcons/RoughSauridUnion.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Gaunt_Normal_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Call/Pawn_Saurid_Call3.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/GeneIcons/Gene_VoiceLizard.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill3_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/GeckoTail/GeckoTail_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Narrow_Normal_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill1_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Wounded/Pawn_Saurid_Wounded3.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Item/EggFertilized_Human.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Call/Pawn_Saurid_Call4.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/GeneIcons/Gene_ScaleSkin.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill2_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill2_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Wide_Normal_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill4_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/GeneIcons/Gene_TailGecko.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill10_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Hulk_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Wide_Normal_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Female_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Hulk_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Average_Normal_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill7_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/GeckoTail/GeckoTail_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Fat_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Death/Pawn_Saurid_Death2.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill5_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill8_north-.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill10_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Male_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Thin_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill8_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill7_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill9_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Narrow_Normal_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Average_Normal_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill7_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/FrilledEars/FrilledEars1_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Narrow_Normal_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill1_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Female_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Call/Pawn_Saurid_Call5.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Wounded/Pawn_Saurid_Wounded1.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Female_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Thin_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Death/Pawn_Saurid_Death1.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill2_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill5_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Call/Pawn_Saurid_Call2.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill10_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/GeneIcons/Gene_EarFrilled.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/FrilledEars/FrilledEars_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill8_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill1_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/XenotypeIcons/Saurid.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Gaunt_Normal_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Death/Pawn_Saurid_Death3.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Call/Pawn_Saurid_Call1.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Average_Normal_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill9_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/GeneIcons/Gene_Oviparous.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/GeneIcons/Gene_ColdBlooded.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Things/Pawn/Humanlike/Heads/ScalySkin_Wide_Normal_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Male_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill9_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/GeneIcons/Gene_Pheromones.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill3_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/FrilledEars/FrilledEars1_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Fat_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Hulk_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill6_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill5_south.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Sounds/Pawn/Humanlike/Saurid/Wounded/Pawn_Saurid_Wounded2.ogg
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/GeneIcons/Gene_HandsSaurid.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill3_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/FrilledEars/FrilledEars_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill4_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/CenterFrill/CenterFrill6_north.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/FrilledEars/FrilledEars_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/Pawn/ScalySkin/ScalySkin_Fat_east.png
+- Assets/Data/vanillaracesexpanded.saurid.forked/Textures/UI/GeneIcons/Gene_HeadboneCenterFrill.png
+Dependencies: []

@@ -69,12 +69,46 @@
 		<label>center-frill</label>
 		<description>Carriers of this gene grow a lizard-like frill protruding from the top of their head.</description>
 		<iconPath>UI/GeneIcons/Gene_HeadboneCenterFrill</iconPath>
+		<geneClass>WVC_XenotypesAndGenes.Gene_CenterFrill</geneClass>
+		<!-- <hairTagFilter> -->
+			<!-- <whitelist>true</whitelist> -->
+			<!-- <tags> -->
+				<!-- <li>Saurid</li> -->
+			<!-- </tags> -->
+		<!-- </hairTagFilter> -->
 		<hairTagFilter>
 			<whitelist>true</whitelist>
 			<tags>
-				<li>Saurid</li>
+				<li>Bald</li>
 			</tags>
 		</hairTagFilter>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>WVC_XenotypesAndGenes.PawnRenderNode_CustomHair</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPaths>
+			  <li>Pawn/CenterFrill/CenterFrill</li>
+			  <li>Pawn/CenterFrill/CenterFrill1</li>
+			  <li>Pawn/CenterFrill/CenterFrill2</li>
+			  <li>Pawn/CenterFrill/CenterFrill3</li>
+			  <li>Pawn/CenterFrill/CenterFrill4</li>
+			  <li>Pawn/CenterFrill/CenterFrill5</li>
+			  <li>Pawn/CenterFrill/CenterFrill6</li>
+			  <li>Pawn/CenterFrill/CenterFrill7</li>
+			  <li>Pawn/CenterFrill/CenterFrill8</li>
+			  <li>Pawn/CenterFrill/CenterFrill9</li>
+			  <li>Pawn/CenterFrill/CenterFrill10</li>
+			</texPaths>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<colorType>Skin</colorType>
+			<skipFlag>Hair</skipFlag>
+			<baseLayer>64</baseLayer>
+			<drawSize>1</drawSize>
+			<!-- <tagDef>Head</tagDef> -->
+			<parentTagDef>Head</parentTagDef>
+			<!-- <useSkinShader>true</useSkinShader> -->
+		  </li>
+		</renderNodeProperties>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
