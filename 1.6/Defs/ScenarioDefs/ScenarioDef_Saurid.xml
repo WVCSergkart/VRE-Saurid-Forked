@@ -11,49 +11,55 @@
 	  <!-- <summaryPriority>100</summaryPriority> -->
 	<!-- </ScenPartDef> -->
 
-	<!-- <ScenarioDef ParentName="ScenarioBase"> -->
-		<!-- <defName>VRESaurids_SauridMother</defName> -->
-		<!-- <label>Saurid Mother</label> -->
-		<!-- <description>Facing difficulties and abuse, you were forced to abandon your way of life and hitched a ride on one of the short distance transport vessels. You were only able to take what matters most to you - your eggs. They are the only reminder of your long gone partner, and you promised to raise them no matter the cost. Not long after the departure, the pilot and his goons decided to take your money and eject you into the wilderness.\n\nNote: Since you start with nothing except 4 saurid eggs, this is a difficult scenario.</description> -->
-		<!-- <scenario> -->
-			<!-- <summary>One crashlanded saurid parent with 4 eggs that need protection and care. Extra difficult.</summary> -->
-			<!-- <playerFaction> -->
-				<!-- <def>PlayerFaction</def> -->
-				<!-- <factionDef>PlayerColony</factionDef> -->
-			<!-- </playerFaction> -->
-			<!-- <parts> -->
-				<!-- <li Class="ScenPart_GameStartDialog"> -->
-					<!-- <def>GameStartDialog</def> -->
-					<!-- <text>Facing difficulties and abuse, you were forced to abandon your way of life and hitched a ride on one of the short distance transport vessels. You were only able to take what matters most to you - your eggs. They are the only reminder of your long gone partner, and you promised to raise them no matter the cost. Not long after the departure, the pilot and his goons decided to take your money and eject you into the wilderness.</text> -->
-					<!-- <closeSound>GameStartSting</closeSound> -->
-				<!-- </li> -->
+  <ScenarioDef ParentName="ScenarioBase">
+	<defName>VRESaurids_SauridMother</defName>
+	<label>Saurid Mother</label>
+	<description>Facing difficulties and abuse, you were forced to abandon your way of life and hitched a ride on one of the short distance transport vessels. You were only able to take what matters most to you - your eggs. They are the only reminder of your long gone partner, and you promised to raise them no matter the cost. Not long after the departure, the pilot and his goons decided to take your money and eject you into the wilderness.\n\nNote: Since you start with nothing except 3-5 saurid eggs, this is a difficult scenario.</description>
+	<scenario>
+		<summary>One crashlanded saurid parent with 3-5 eggs that need protection and care. Extra difficult.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>PlayerColony</factionDef>
+		</playerFaction>
+		<parts>
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>Facing difficulties and abuse, you were forced to abandon your way of life and hitched a ride on one of the short distance transport vessels. You were only able to take what matters most to you - your eggs. They are the only reminder of your long gone partner, and you promised to raise them no matter the cost. Not long after the departure, the pilot and his goons decided to take your money and eject you into the wilderness.</text>
+				<closeSound>GameStartSting</closeSound>
+			</li>
 
-				<!-- <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs"> -->
-					<!-- <def>ConfigurePawnsKindDefs</def> -->
-					<!-- <pawnChoiceCount>8</pawnChoiceCount> -->
-					<!-- <leftBehindPawnKind>VRESaurid_SauridMother</leftBehindPawnKind> -->
-					<!-- <kindCounts> -->
-						<!-- <li> -->
-							<!-- <kindDef>VRESaurid_SauridMother</kindDef> -->
-							<!-- <count>1</count> -->
-							<!-- <requiredAtStart>true</requiredAtStart> -->
-						<!-- </li> -->
-					<!-- </kindCounts> -->
-				<!-- </li> -->
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+				<def>ConfigurePawnsKindDefs</def>
+				<pawnChoiceCount>8</pawnChoiceCount>
+				<leftBehindPawnKind>VRESaurid_SauridMother</leftBehindPawnKind>
+				<kindCounts>
+					<li>
+						<kindDef>VRESaurid_SauridMother</kindDef>
+						<count>1</count>
+						<requiredAtStart>true</requiredAtStart>
+					</li>
+				</kindCounts>
+			</li>
 
-				<!-- <li Class="VRESaurids.ScenPart_StartingHumanEggs"> -->
-					<!-- <def>VRESaurids_StartingHumanEggs</def> -->
-					<!-- <count>4</count> -->
-				<!-- </li> -->
+			<li Class="WVC_XenotypesAndGenes.ScenPart_PawnModifier_XenotypesAndGenes">
+			  <def>WVC_XaG_Starting</def>
+			  <humanEggDef>WVC_EggHumanFertilized</humanEggDef>
+			  <context>PlayerStarter</context>
+			</li>
 
-				<!-- <li Class="ScenPart_PlayerPawnsArriveMethod"> -->
-					<!-- <def>PlayerPawnsArriveMethod</def> -->
-					<!-- <visible>false</visible> -->
-					<!-- <method>DropPods</method> -->
-				<!-- </li> -->
+			<!-- <li Class="VRESaurids.ScenPart_StartingHumanEggs"> -->
+				<!-- <def>VRESaurids_StartingHumanEggs</def> -->
+				<!-- <count>4</count> -->
+			<!-- </li> -->
 
-			<!-- </parts> -->
-		<!-- </scenario> -->
-	<!-- </ScenarioDef> -->
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<visible>false</visible>
+				<method>DropPods</method>
+			</li>
+
+		</parts>
+	</scenario>
+  </ScenarioDef>
 
 </Defs>

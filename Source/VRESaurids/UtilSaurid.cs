@@ -14,6 +14,8 @@ namespace VRESaurids
 
 		public static bool SameXenotype(Pawn pawn, Pawn other)
         {
+            //return WVC_XenotypesAndGenes.PreferredXenotypesUtility.IsSameXenotype(pawn, other);
+
             if (pawn?.genes?.Xenotype == other?.genes?.Xenotype)
             {
                 return true;
