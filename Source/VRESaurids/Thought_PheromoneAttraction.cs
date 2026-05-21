@@ -14,7 +14,11 @@ namespace VRESaurids
 	{
 		public override float OpinionOffset()
 		{
-			return UtilSaurid.SameXenotype(pawn, OtherPawn()) ? (Gene_Pheromones.PheromonesPawns.Contains(OtherPawn()) ? 20 : 0) : 0;
+			if (!Gene_Pheromones.PheromonesPawns.Contains(OtherPawn()))
+			{
+				return 0f;
+			}
+			return UtilSaurid.SameXenotype(pawn, OtherPawn()) ?  20 : 0;
 		}
 	}
 }

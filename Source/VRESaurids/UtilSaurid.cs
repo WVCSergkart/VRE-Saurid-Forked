@@ -12,15 +12,27 @@ namespace VRESaurids
     public static class UtilSaurid
     {
 
-		public static bool SameXenotype(Pawn pawn, Pawn other)
-        {
-            return WVC_XenotypesAndGenes.PreferredXenotypesUtility.IsSameXenotype(pawn, other);
+        private static bool disabled = false;
 
-            //if (pawn?.genes?.Xenotype == other?.genes?.Xenotype)
-            //{
-            //    return true;
-            //}
-            //return false;
-        }
+		public static bool SameXenotype(Pawn pawn, Pawn other)
+		{
+			if (disabled)
+			{
+				if (pawn?.genes?.Xenotype == other?.genes?.Xenotype)
+				{
+					return true;
+				}
+				return false;
+			}
+			try
+            {
+                return WVC_XenotypesAndGenes.PreferredXenotypesUtility.IsSameXenotype(pawn, other);
+            }
+            catch
+            {
+				disabled = true;
+			}
+			return false;
+		}
     }
 }

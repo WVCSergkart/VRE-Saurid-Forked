@@ -14,11 +14,11 @@ namespace VRESaurids
 	{
 		protected override ThoughtState CurrentSocialStateInternal(Pawn p, Pawn otherPawn)
 		{
-			if (!UtilSaurid.SameXenotype(p, otherPawn) || !RelationsUtility.PawnsKnowEachOther(p, otherPawn))
+			if (!Gene_Pheromones.PheromonesPawns.Contains(otherPawn) || !RelationsUtility.PawnsKnowEachOther(p, otherPawn))
 			{
 				return false;
 			}
-			if (Gene_Pheromones.PheromonesPawns.Contains(otherPawn))
+			if (UtilSaurid.SameXenotype(p, otherPawn))
 			{
 				return ThoughtState.ActiveAtStage(1);
 			}
