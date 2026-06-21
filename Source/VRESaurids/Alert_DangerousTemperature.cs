@@ -11,6 +11,8 @@ namespace VRESaurids
 {
     public class Alert_DangerousTemperature : Alert_Critical
     {
+
+
         public List<Pawn> culpritsResult = new List<Pawn>();
 
         public List<string> culpritsNames = new List<string>();
@@ -18,32 +20,29 @@ namespace VRESaurids
         public List<Pawn> Culprits
         {
             get
-            {
-                culpritsResult.Clear();
+			{
+				if (!VRESauridsMod.settings.displayColdBloodedWarnings)
+				{
+                    return [];
+				}
+				culpritsResult.Clear();
                 culpritsNames.Clear();
-                if (VRESauridsMod.settings.displayColdBloodedWarnings)
-                {
-                    foreach (Pawn item in PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_FreeColonists_NoSuspended)
-                    
-                    {
-                        if (WVC_XenotypesAndGenes.Gene_ColdBlooded.ColdBloodedPawns.Contains(item))
-                        {
-                            Hediff hyper = item.health.hediffSet.GetFirstHediffOfDef(VRESauridsDefOf.VRESaurids_HyperthermicSlowdown);
-                            if (hyper != null && hyper.Severity >= 0.1f)
-                            {
-                                culpritsResult.Add(item);
-                                culpritsNames.Add(item.Name.ToStringShort);
-                            }
-                            Hediff hypo = item.health.hediffSet.GetFirstHediffOfDef(VRESauridsDefOf.VRESaurids_HypothermicSlowdown);
-                            if (hypo != null && hypo.Severity >= 0.1f)
-                            {
-                                culpritsResult.Add(item);
-                                culpritsNames.Add(item.Name.ToStringShort);
-                            }
-                        }
-                    }
-                }
-                return culpritsResult;
+				foreach (Pawn item in WVC_XenotypesAndGenes.Gene_ColdBlooded.ColdBloodedPawns.Where(pawn => !pawn.Suspended))
+				{
+					Hediff hyper = item.health.hediffSet.GetFirstHediffOfDef(VRESauridsDefOf.VRESaurids_HyperthermicSlowdown);
+					if (hyper != null && hyper.Severity >= 0.1f)
+					{
+						culpritsResult.Add(item);
+						culpritsNames.Add(item.Name.ToStringShort);
+					}
+					Hediff hypo = item.health.hediffSet.GetFirstHediffOfDef(VRESauridsDefOf.VRESaurids_HypothermicSlowdown);
+					if (hypo != null && hypo.Severity >= 0.1f)
+					{
+						culpritsResult.Add(item);
+						culpritsNames.Add(item.Name.ToStringShort);
+					}
+				}
+				return culpritsResult;
             }
         }
 
