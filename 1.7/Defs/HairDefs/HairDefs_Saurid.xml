@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- <StyleItemCategoryDef> -->
+	  <!-- <defName>Saurid</defName> -->
+	  <!-- <label>saurid</label> -->
+	<!-- </StyleItemCategoryDef> -->
+  <WVC_XenotypesAndGenes.StyleGeneDef Name="WVC_Saurids_StyleGeneDef_Base" Abstract="True" >
+	<uniqueStyleId>1000011</uniqueStyleId>
+  </WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<!-- <HairDef Name="VRESauridsHairBase" Abstract="true"> -->
+		<!-- <styleGender>Any</styleGender> -->
+		<!-- <requiredGene>VRESaurids_CenterFrill</requiredGene> -->
+		<!-- <category>Saurid</category> -->
+		<!-- <styleTags> -->
+			<!-- <li>Saurid</li> -->
+			<!-- <li>SauridCenterFrill</li> -->
+		<!-- </styleTags> -->
+	<!-- </WVC_XenotypesAndGenes.StyleGeneDef> -->
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Yoshi</defName>
+		<label>yoshi</label>
+		<texPath>Pawn/CenterFrill/CenterFrill</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Zilla</defName>
+		<label>zilla</label>
+		<texPath>Pawn/CenterFrill/CenterFrill1</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Rango</defName>
+		<label>rango</label>
+		<texPath>Pawn/CenterFrill/CenterFrill2</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Geico</defName>
+		<label>geico</label>
+		<texPath>Pawn/CenterFrill/CenterFrill3</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Kaa</defName>
+		<label>kaa</label>
+		<texPath>Pawn/CenterFrill/CenterFrill4</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Crush</defName>
+		<label>crush</label>
+		<texPath>Pawn/CenterFrill/CenterFrill5</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Grimlock</defName>
+		<label>grimlock</label>
+		<texPath>Pawn/CenterFrill/CenterFrill6</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Reptar</defName>
+		<label>reptar</label>
+		<texPath>Pawn/CenterFrill/CenterFrill7</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Littlefoot</defName>
+		<label>littlefoot</label>
+		<texPath>Pawn/CenterFrill/CenterFrill8</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Spyro</defName>
+		<label>spyro</label>
+		<texPath>Pawn/CenterFrill/CenterFrill9</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+	<WVC_XenotypesAndGenes.StyleGeneDef  ParentName="WVC_Saurids_StyleGeneDef_Base">
+		<defName>VRESaurids_Smaug</defName>
+		<label>smaug</label>
+		<texPath>Pawn/CenterFrill/CenterFrill10</texPath>
+	</WVC_XenotypesAndGenes.StyleGeneDef>
+
+</Defs>
