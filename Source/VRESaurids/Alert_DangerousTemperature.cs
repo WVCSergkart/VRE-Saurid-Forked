@@ -27,7 +27,7 @@ namespace VRESaurids
 				}
 				culpritsResult.Clear();
                 culpritsNames.Clear();
-				foreach (Pawn item in WVC_XenotypesAndGenes.Gene_ColdBlooded.ColdBloodedPawns.Where(pawn => !pawn.Suspended))
+				foreach (Pawn item in WVC_XenotypesAndGenes.Gene_ColdBlooded.ColdBloodedPawns.Where(pawn => pawn != null && !pawn.Suspended))
 				{
 					Hediff hyper = item.health.hediffSet.GetFirstHediffOfDef(VRESauridsDefOf.VRESaurids_HyperthermicSlowdown);
 					if (hyper != null && hyper.Severity >= 0.1f)

@@ -50,7 +50,7 @@
       <Private>False</Private>
     </Reference>
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-    <PackageReference Include="Lib.Harmony" Version="3.0.0-rc.2" />
+    <PackageReference Include="Lib.Harmony" Version="3.0.0-rc.5" />
   </ItemGroup>
   <ItemGroup Label="Compile items now included by globbing that were not in the original project file">
     <Compile Remove="ScenPart_StartingHumanEggs.cs" />
